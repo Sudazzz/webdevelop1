@@ -1,0 +1,41 @@
+html, body{
+	margin:0;
+}
+
+div, header {
+	background: rgba(0, 200, 255, 0.4);
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	border: 1px,dashed, blueviolet;
+}
+
+header{
+	height:100px;
+	width:100%;
+	background-color: gray;
+	position:fixed;
+	/*top:10%;
+	left:30px;*/
+	z-index: 100;
+}
+
+.bottom_right{
+	position:absolute;
+	bottom: :0;
+	right:0;
+}
+
+.wrapper_relative{
+	position: relative;
+	padding-top:100px;
+	width:50%;
+	height:100vh;
+}
+
+.absolute_relative{
+	position: ;
+}
